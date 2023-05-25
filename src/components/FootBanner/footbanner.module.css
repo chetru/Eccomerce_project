@@ -1,0 +1,115 @@
+.footer_banner_container {
+    background-color: #f02d34;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    margin-top: 80px;
+    padding: 100px 40px;
+    height: 400px;
+    line-height: 0.7;
+    position: relative;
+}
+
+.banner_desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_desc .left h3 {
+    font-size: 63px;
+    font-weight: 800;
+    margin-left: 25px;
+    color: white;
+    line-height: 0.5;
+}
+
+.banner_desc .left p {
+    margin: 12px;
+    line-height: 2;
+}
+
+.banner_desc .right h3 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-left: 14px;
+    color: white;
+}
+
+.banner_desc .right p {
+    font-size: 17px;
+    margin-left: 15px;
+    line-height: 1.2;
+}
+
+.banner_desc button {
+    border-radius: 15px;
+    background-color: white;
+    color: #f02d34;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.banner_desc .right {
+    padding-left: 140px;
+}
+.footer_banner_image {
+    position: absolute;
+    top: -25%;
+    left: 25%;
+}
+
+@media screen and (min-width:0px) and (max-width:736px){
+    .footer_banner_container {
+        height: 550px;
+        margin-top: 80px;
+    }
+
+    .footer_banner_image {
+        width: 60%;
+        left: 40%;
+        top: 6%;
+        height: 56%
+    }
+
+    .footer_banner_container button {
+        margin-right: 45px;
+        margin-bottom: 10px;
+        margin-left: -100px;
+    }
+
+    .banner_desc {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .banner_desc .left h3 {
+        font-weight: 900;
+        font-size: 50px;
+        margin-left: 5px;
+    }
+
+    .banner_desc .left p {
+        margin: 18px;
+        line-height: 0.4;
+    }
+
+    .banner_desc .right h3 {
+        font-size: 50px;
+        margin-right: 80px;
+        margin-left: -128px;
+    }
+
+    .banner_desc .right p {
+        font-size: 13px;
+        margin-left: -130px;
+        line-height: 1.2;
+    }
+}
+@media screen and (min-width:737) and (max-width:1208px){
+    .footer_banner_container {
+        height: 620px;
+    }
+}

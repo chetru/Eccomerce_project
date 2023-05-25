@@ -1,0 +1,83 @@
+.registration_form {
+    padding: 70px 0;
+}
+
+.registration_form form {
+    background-color: #c3cbdb;
+    max-width: 550px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.registration_form .form_icon {
+    text-align: center;
+    background-color: #5f8de8;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration_form .item {
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border: 1px solid #936c7075;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, .075);
+    letter-spacing: 1px
+}
+
+.item:focus {
+    border: 1px solid #dc354575;
+     border-radius: 30px;
+     box-shadow: none;
+     background-color: rgba(0, 0, 0, .075);
+     color: #000;
+     letter-spacing: 1px
+ }
+
+
+.btn {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgba(249, 0, 104, 1) 0%, rgba(247, 117, 24, 1) 100%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.registration_form .create_account {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .registration_form form {
+        padding: 50px 20px;
+    }
+
+    .registration_form .form-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}

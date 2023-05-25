@@ -1,0 +1,19 @@
+.footer_container {
+    color: #324d67;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    font-size: 15px;
+}
+
+.footer_icons {
+    font-size: 26px;
+    display: flex;
+    gap: 8px;
+}
+

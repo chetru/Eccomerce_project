@@ -1,0 +1,53 @@
+.main_container {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+}
+
+.layout {
+    padding: 10px;
+    background-color: white;
+    height: 100%;
+}
+
+.products_heading {
+    text-align: center;
+    margin: 40px;
+    color: #324d67;
+    line-height: 0;
+}
+
+.products_heading h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #324d67
+}
+
+.products_heading p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.products_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .products_heading p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .products_heading h2 {
+        font-size: 30px;
+    }
+
+}
+
